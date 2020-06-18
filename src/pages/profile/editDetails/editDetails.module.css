@@ -1,0 +1,29 @@
+.spinner {
+    height: 2rem;
+    width: 2rem;
+    color: #212121;
+    position: absolute;
+    display: inline-block;
+    border: 0.3rem solid;
+    border-radius: 50%;
+    margin:2rem;
+    border-top-color: transparent;
+    animation: rotate 1s linear infinite;
+    top:0%;
+    left: 86%;
+  
+  
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0); }
+    100% {
+      transform: rotate(360deg); } }
+
+  .icon{
+        position:absolute;
+        top:5%;
+        left:90%;
+
+    }

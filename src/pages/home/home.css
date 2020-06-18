@@ -1,0 +1,34 @@
+.screams{
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-column: container-start/col-end 6;
+    grid-column-gap:1rem;
+    /* background-color: #e6ecf1; */
+    overflow-y: auto;
+}
+
+.screams::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+  }
+
+.profile{
+    grid-column: col-start 7/container-end;
+    background-color: #e6ecf1;
+    
+}
+
+
+@media screen and (max-width:49rem){
+    .profile{
+        grid-column: container-start / container-end;
+        grid-row: 1/2;
+        margin-bottom: 1rem;
+        
+        
+    }
+
+    .screams{
+        grid-column: container-start/container-end;
+    }
+}
